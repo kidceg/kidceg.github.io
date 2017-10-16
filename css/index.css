@@ -59,12 +59,30 @@
 .about{
 	padding-top: 25px;
 	padding-bottom: 30px;
+
 }
 
 .about li{
 	padding-top: 15px;
 }
 
+.about li a{
+	color: #2C3119;	
+}
+
+.about li a:hover{
+	color: #6C6F60;
+}
+
+.logo img{
+	width: 35px;
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+.logo img:hover{
+	opacity: 0.5;
+}
 
 .right-col{
 	display: inline-block;
