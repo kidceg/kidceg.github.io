@@ -82,17 +82,18 @@
 .logo img{
 	width: 35px;
 	cursor: pointer;
-	opacity: 0.8;
+	opacity: 0.6;
 }
 
 .logo img:hover{
-	opacity: 0.5;
+	opacity: 0.8;
 }
 
 .right-col{
 	display: inline-block;
-	float: right;
+	position: absolute;
+	left: 280px;
 	width: calc(100% - 280px); 
-	height: 100%;
-	/* background-color: yellow; */
+	min-height: 100%;
+	background-color: #EAEAEA;
 }
