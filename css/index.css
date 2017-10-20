@@ -49,6 +49,7 @@
 .left-container h1{
 	padding-top: 115px;
 	color: #2C3119;
+	text-shadow: 1px 1px 1px #ADC2BD;
 }
 
 .left-container p{
@@ -80,10 +81,12 @@
 	width: 35px;
 	cursor: pointer;
 	opacity: 0.5;
+	transition: all 0.5s;
 }
 
 .logo img:hover{
 	opacity: 0.8;
+	transform: scale(1.1);
 }
 
 .right-col{
@@ -105,6 +108,7 @@
 	margin-top: 50px;
 	background-color: #fff;
 	box-shadow: 2px 2px 2px gray;
+	border-radius: 5px;
 }
 
 .box1 h2{
