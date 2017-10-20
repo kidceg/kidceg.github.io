@@ -64,6 +64,7 @@
 }
 
 .about li{
+	list-style-type: none;
 	padding-top: 15px;
 }
 
@@ -112,4 +113,8 @@
 
 .box1 h2 a{
 	color: #2C3119;
+}
+
+.box1 h2 a:hover{
+	color: gray;
 }
