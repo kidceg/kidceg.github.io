@@ -18,7 +18,12 @@
 .overlay{
 	width: 100%;
 	height:200px;
-	background-color:#245E50;
+	background:linear-gradient(90deg,  #46B89D 0%, #245E50 100%);
+	transition: all 3s;
+}
+
+.overlay:hover{
+	background:linear-gradient(90deg,  #245E50 0%, #46B89D 100%);
 }
 
 .left-container{
