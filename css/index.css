@@ -127,3 +127,15 @@
 .box1 h2 a:hover{
 	color: gray;
 }
+
+@media (max-width: 800px) {
+	.box1{
+		width: 300px;
+	}	
+}
+
+@media (max-width: 600px) {
+	.box1{
+		width: 200px;
+	}	
+}
